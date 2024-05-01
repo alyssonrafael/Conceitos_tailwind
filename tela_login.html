@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- usando via <script> -->
+</head>
+<body class="h-screen w-screen justify-center bg-gray-100 flex items-center">
+    <div class="w-auto">
+        <h2 class="text-lg font-bold text-center mb-4">Login</h2>
+        <div class="bg-white shadow-md rounded-md p-6 space-y-4">
+            <div>
+                <label for="email" class=" block text-sm text-gray-800 mb-1">Email</label>
+                <input
+                    id="email"
+                    type="text"
+                    class=" w-full border border-gray-300 focus:border-blue-500 rounded px-2 py-1 text-lg text-gray-800 placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-20"
+                >
+            </div>
+            <div>
+                <label for="password" class="block text-sm text-gray-800 mb-1">Senha</label>
+                <input
+                    id="password"
+                    type="text"
+                    class=" w-full border border-gray-300 focus:border-blue-500 rounded px-2 py-1 text-lg text-gray-800 placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-20"
+                >
+            </div>
+            <div>
+                <div>
+                    <a href="" class="text-sm text-blue-500 border-b-2 border-blue-500">Esqueci minha senha</a>
+                </div>
+            </div>
+            <div>
+                <button class=" w-full text-sm bg-blue-500 hover:bg-blue-700 px-6 py-2 rounded text-white shadow-lg">Login</button>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

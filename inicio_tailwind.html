@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- usando via <script> -->
+</head>
+
+<body class="bg-gray-100 h-screen" >
+    <p class="w-full text-center font-bold text-2xl">------textos-------</p>
+    <h2 class="text-sm text-gray-500 font-black">OLA MUNDO</h2>
+    <h2 class="text-base text-red-800">OLA MUNDO</h2>
+    <h2 class="text-lg text-blue-300">OLA MUNDO</h2>
+    <h2 class="text-xl text-yellow-400">OLA MUNDO</h2>
+    <h2 class="text-2xl text-green-800 font-bold">OLA MUNDO</h2>
+    <p class="text-center">testando testando testando testando</p>
+    <p>------------------------------------------</p>
+    <div class="p-8 m-2">tamanho de fonte 10 rem</div>
+    <div class="m-4 space-y-4">
+        <div>1 aqui tem espaço em cima em embaixo fora a margin</div>
+        <div>2 aqui tem espaço em cima em embaixo fora a margin</div>
+        <div>3 aqui tem espaço em cima em embaixo fora a margin</div>
+    </div>
+    <p class="w-full text-center font-bold text-2xl">------------------bordas e backgorunds-------------------</p>
+    <div class="m-5 p-4 border-4 border-red-400">testando testando</div>
+    <div class="m-5 p-4 border-4 border-blue-400 rounded-full ring">testando testando <br> <button
+            class="bg-blue-100 px-4 py-1 rounded-full">save</button></div>
+            <p>-------------------------------------</p>
+    <div class="m-5 p-4 bg-blue-100" >testando testando</div>
+    <div class="m-5 p-4 bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500 text-black" >ola mundo</div>
+    <p>-------------------------------------</p>
+    <div class=" w-1/3 m-5 p-4 bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500 text-black" >ola mundo</div>
+    <div class=" w-scren h-1/6 bg-gradient-to-bl from-yellow-400 via-red-500 to-pink-500 text-black" >ola mundo</div>
+    <p class="w-full text-center font-bold text-2xl">------------------flex-------------------</p>
+    <div class="flex justify-center items-center space-x-4 bg-gray-300 h-36">
+        <div class="bg-blue-200 p-5 w-24 h-24 text-center">1</div>
+        <div class="bg-blue-200 p-5 w-24 h-24 text-center">2</div>
+        <div class="bg-blue-200 p-5 w-24 h-24 text-center">3</div>
+    </div>
+    <br>
+    <div class="flex justify-center items-center space-x-4 bg-gray-300 h-36">
+        <div class="bg-blue-200 p-5 w-24 h-24 text-center">1</div>
+        <div class=" flex-grow flex-shrink-0 w-24 bg-blue-200 p-5 h-24 text-center">2</div>
+        <div class="bg-blue-200 p-5 w-24 h-24 text-center">3</div>
+    </div>
+    <p class="w-full text-center font-bold text-2xl">---------------GRID----------------------</p>
+    <div class=" grid grid-cols-3 gap-4 h-36">
+        <div class=" col-span-2 bg-blue-200 p-5  text-center">1</div>
+        <div class="bg-blue-200 p-5  text-center">2</div>
+        <div class="bg-blue-200 p-5  text-center">3</div>
+        <div class="bg-blue-200 p-5  text-center">4</div>
+    </div>
+    <p class="w-full text-center font-bold text-2xl">------------------outros testes-------------------</p>
+    <h1 class="text-sm sm:text-base md:text-xl lg:text-2xl">Hello</h1>
+    <div class="bg-blue-200 p-5  text-center">4</div>
+    <p>-------------------------------------</p>
+    <h1 class="text-green-300 hover:text-yellow-400">Helo mudno</h1>
+    <button class=" bg-blue-200 w-24 hover:text-yellow-400 hover:bg-blue-500">save</button>
+    <br><br>
+    <div class=" group w-72 bg-gray-200 p-4 m-2">
+        <h4 class="font-bold group-hover:text-blue-600">titulo do card</h4>
+        <p class="text-blue-300 group-hover:text-red-600 text-sm"> qualquer coisa dita aqui e qualquier coisa</p>
+    </div>
+    <input class="border-4 border-solid border-gray-400 focus:border-blue-500 p-4 rounded-md" type="text" placeholder="Seu texto aqui">
+    <br>
+    <br>
+    <p>-------------------------------------</p>
+
+
+</body>
+
+</html>

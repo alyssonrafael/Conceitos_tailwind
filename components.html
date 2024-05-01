@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>componentes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- usando via <script> -->
+</head>
+
+<body class="bg-gray-100 dark:bg-gray-800 dark:text-white ">
+    <!-- para ficar mais facil de vizualizar -->
+    <div class="container mx-auto px-4 py-4 bg-blue-200 dark:bg-gray-600">
+        <h6 class="font-bold mb-2 ">componente card</h6>
+
+        <!-- card aqui -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden dark:bg-gray-500">
+            <div class="w-full bg-gray-200 p-4 border-b border-gray-300 dark:bg-gray-500">
+                <h4 class="font-bold">titulo do card</h4>
+            </div>
+            <div class="p-4">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.
+            </div>
+            <div class="w-full bg-gray-100 p-2 border-t border-gray-200 dark:bg-gray-500">
+                rodape do card
+            </div>
+
+        </div>
+    </div>
+
+    <br>
+    <!-- btn aqui -->
+    <div class="container mx-auto px-4 py-4 bg-blue-200 dark:bg-gray-600 space-x-4">
+        <h6 class="font-bold mb-2 ">componente btn</h6>
+        <button class=" text-sm bg-blue-500 hover:bg-blue-700 px-4 py-1 rounded text-white shadow-lg">Save</button>
+        <button class=" text-sm bg-blue-500 hover:bg-blue-700 px-6 py-2 rounded text-white shadow-lg">Save</button>
+        <button class="text-base bg-blue-500 hover:bg-blue-700 px-8 py-3 rounded text-white shadow-lg">Save</button>
+    </div>
+
+    <br>
+    <!-- tags de status aqui -->
+    <div class="container mx-auto px-4 py-4 bg-blue-200 dark:bg-gray-600">
+        <h6 class="font-bold mb-2 ">componente badget/tag</h6>
+        <div class="mb-2">
+            <div
+                class="inline-flex items-center tex-sm bg-green-100 px-1.5 py-0.5 rounded-md text-green-800 font-medium">
+                Ativo
+            </div>
+            <div
+                class="inline-flex items-center tex-sm bg-green-100 px-1.5 py-0.5 rounded-md text-green-800 font-medium">
+                Ativo
+            </div>
+        </div>
+        <div class="mb-2">
+            <div class="inline-flex items-center tex-sm bg-red-100 px-1.5 py-0.5 rounded-md text-red-800 font-medium">
+                inativo
+            </div>
+            <div class="inline-flex items-center tex-sm bg-red-100 px-1.5 py-0.5 rounded-md text-red-800 font-medium">
+                inativo
+            </div>
+        </div>
+        <div class="mb-2">
+            <div
+                class="inline-flex items-center tex-sm bg-yellow-100 px-1.5 py-0.5 rounded-md text-yellow-800 font-medium">
+                in progress
+            </div>
+            <div
+                class="inline-flex items-center tex-sm bg-yellow-100 px-1.5 py-0.5 rounded-md text-yellow-800 font-medium">
+                in progress
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <!-- input aqui -->
+    <div class="container mx-auto px-4 py-4 bg-blue-200 dark:bg-gray-600">
+        <h6 class="font-bold mb-2 ">componente input</h6>
+        <div class="space-y-4">
+            <input type="text" placeholder="digite seu nome"
+                class=" w-full border border-gray-300 focus:border-blue-500 rounded px-2 py-1 text-sm text-gray-800 placeholder-gray-300 focus:outline-none">
+            <input type="text" placeholder="digite seu nome"
+                class=" w-full border border-gray-300 focus:border-blue-500 rounded px-3 py-2 text-base text-gray-800 placeholder-gray-300 focus:outline-none">
+            <input type="text" placeholder="digite seu nome"
+                class=" w-full border border-gray-300 focus:border-blue-500 rounded px-3 py-6 text-lg text-gray-800 placeholder-gray-300 focus:outline-none">
+            <input type="text" placeholder="digite seu nome"
+                class=" w-full border border-gray-300 focus:border-blue-500 rounded px-3 py-6 text-lg text-gray-800 placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-20">
+            <input type="text" placeholder="digite seu nome . transition"
+                class=" w-full border border-gray-300 focus:border-blue-500 rounded px-3 py-6 text-lg text-gray-800 placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-20 trasition duration-1000 ease-in-out">
+        </div>
+    </div>
+    <br>
+
+    <!-- dropdonw aqui -->
+    <div class="container mx-auto px-4 py-4 bg-blue-200 dark:bg-gray-600">
+        <h6 class="font-bold mb-2 ">componente dropdonw</h6>
+        <div class="relative">
+            <button
+                class=" flex items-center bg-white border border-gray-300 focus:border-blue-500 rounded px-3 py-2 text-base text-gray-800 focus:outline-none shadow-lg">
+                botao
+            </button>
+            <!-- para fazer sumir so colocarr o hidden quer seia quando clicar ou passar o mouse ele faz o hidden  -->
+            <div class=" hidden bg bg-white border border-gray-300 py-1 shadow-md rounded-md " style="width: 200px;"> 
+                <a href="" class="block text-sm text-gray-500 px-3 bg-white hover:bg-gray-300 py-1">link1</a>
+                <a href="" class="block text-sm text-gray-500 px-3 bg-white hover:bg-gray-300 py-1">link2</a>
+                <a href="" class="block text-sm text-gray-500 px-3 bg-white hover:bg-gray-300 py-1">link3</a>
+                <a href="" class="block text-sm text-gray-500 px-3 bg-white hover:bg-gray-300 py-1">link4</a>
+                <a href="" class="block text-sm text-gray-500 px-3 bg-white hover:bg-gray-300 py-1">link5</a>
+                
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
